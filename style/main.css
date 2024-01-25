@@ -22,8 +22,12 @@ body{
   align-items: center;
 }
 
-.width{
+.width-jumbo{
   width: 1370px;
+}
+
+.width{
+  width: 1000px;
 }
 
 a{
@@ -104,4 +108,15 @@ h1{
 
 /* main in main */ 
 
+#piani-buisiness{
+  padding-top: 200px;
+}
 
+h2{
+  font-size: 3rem;
+  line-height: 150px;
+}
+
+span{
+  padding-right: 15px;
+}
