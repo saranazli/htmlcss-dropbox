@@ -73,4 +73,19 @@ ul{
 #jumbotron{
   height: 650px;
   background-color: rgba(180,208,231,255);
+  text-align: center;
 }
+
+h1{
+  font-size: 3rem;
+}
+
+.text-jumbo.flex{
+  flex-direction: column;
+}
+
+.jumbo-img{
+  height: 60%;
+  width: 60%;
+}
+
