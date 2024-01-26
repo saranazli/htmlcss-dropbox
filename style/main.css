@@ -46,6 +46,10 @@ img{
   width: 100%;
 }
 
+.debug{
+  border: 1px solid black;
+}
+
 /*header*/
 header{
   height: 70px;
@@ -219,19 +223,15 @@ div.text-fourth-card{
 }
 
 /* partner dropbox section */
-
-#partner-section{
-  height: 700px;
-  background-color: aqua;
-  margin-bottom: 200px; GIUSTO PER 
-}
 .image-partner{
-  background-color: yellow;
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 100%;
 }
 .text-partner{
-  background-color: blueviolet;
   width: 30%;
   height: 100%;
+}
+
+.width.flex.center.partner{
+  margin: 0 auto;
 }
