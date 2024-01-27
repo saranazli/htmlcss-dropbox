@@ -224,16 +224,22 @@ div.text-fourth-card{
 }
 
 /* partner dropbox section */
-.width.flex.center.partner{
-  margin: 0 auto;
+
+div.partner-cont{
   height: 700px;
+  width: 100%;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
-.image-partner{
+div.image-partner{
   width: 70%;
   height: 100%;
 }
-.text-partner{
-  width: %;
+div.text-partner{
+  width: 30%;
   height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px;
 }
+
