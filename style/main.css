@@ -243,3 +243,20 @@ div.text-partner{
   padding: 50px;
 }
 
+/* dropbox buisiness section */
+
+.card-b-sec{
+  flex-wrap: wrap;
+}
+.card-bottom{
+width: 300px;
+height: 700px;
+}
+.scopri-buisiness{
+width: 750px;
+margin-bottom: 350px; /*giusto per */
+}
+
+
+
+
