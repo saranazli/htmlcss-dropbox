@@ -22,7 +22,7 @@ body{
   align-items: center;
 }
 
-.width-jumbo{
+.width-jumbo-footer{
   width: 1370px;
 }
 
@@ -249,14 +249,41 @@ div.text-partner{
   flex-wrap: wrap;
 }
 .card-bottom{
-width: 300px;
-height: 700px;
+  width: 300px;
+  height: 700px;
 }
 .scopri-buisiness{
-width: 750px;
-margin-bottom: 350px; /*giusto per */
+  width: 750px;
+  margin-bottom: 350px; /*giusto per */
 }
 
+/*partners*/
+
+.partners{
+  font-size: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.part-cont{
+  width: calc(98vw/3);
+  aspect-ratio: 1/1;
+  display: inline-block;
+}
+.quartetto{
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+div.partner-img-quartetto{
+  width: calc(100%/2);
+  aspect-ratio: 1/1;
+}
+
+/*bottom partners*/
+.prova-gratuita{
+  height: 500px;
+  background-color: rgba(180,208,231,255);
+}
 
 
 
