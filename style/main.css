@@ -295,12 +295,13 @@ div.partner-img-quartetto{
   color: rgba(97,8,43,255);
   text-align: start;
 }
-.white-btn{
+a.white-btn{
   background-color:white;
   padding: 30px 30px;
   width: 50%;
   color: black;
 }
+
 
 
       /*non si vede il link-e non sno allineati i blocchi img*/
@@ -315,4 +316,22 @@ div.partner-img-quartetto{
   border-top: 1px solid;
   line-height: 100px;
 }
+.question.last{
+  border-bottom: 1px solid;
+  margin-bottom: 150px;
+}
 
+/*footer*/
+
+footer{
+  background-color: black;
+  height: 700px;
+}
+
+.top-footer{
+  justify-content: space-between;
+}
+
+.li-footer{
+  color: white;
+}
