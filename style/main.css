@@ -9,7 +9,8 @@ body{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 /* my utility*/
@@ -38,7 +39,6 @@ a{
 .blue-button{
   background-color: rgba(0,97,255,255);
   padding: 10px 10px;
-  color: white;
   color: white;
 }
 
@@ -278,12 +278,41 @@ div.partner-img-quartetto{
   width: calc(100%/2);
   aspect-ratio: 1/1;
 }
+.bordeaux{
+  background-color: rgba(97,8,43,255);
+}
 
-/*bottom partners*/
+/*bottom partners - prova gratuita*/
 .prova-gratuita{
+  margin: 0 auto;
   height: 500px;
   background-color: rgba(180,208,231,255);
 }
+.prova-gratuita.block{
+  justify-content: space-between;
+}
+.t-prova-gratuita{
+  color: rgba(97,8,43,255);
+  text-align: start;
+}
+.white-btn{
+  background-color:white;
+  padding: 30px 30px;
+  width: 50%;
+  color: black;
+}
 
 
+      /*non si vede il link-e non sno allineati i blocchi img*/
+
+
+/* question section */
+.question-sec{
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.question{
+  border-top: 1px solid;
+  line-height: 100px;
+}
 
