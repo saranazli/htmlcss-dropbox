@@ -254,7 +254,7 @@ div.text-partner{
   margin-bottom: 350px; /*giusto per */
 }
 
-/*partners*/
+/*partners associations*/
 
 .partners{
   font-size: 0;
@@ -274,6 +274,10 @@ div.text-partner{
 div.partner-img-quartetto{
   width: calc(100%/2);
   aspect-ratio: 1/1;
+}
+#designit-logo{
+  width: 100%;
+  height: 20%;
 }
 .bordeaux{
   background-color: rgba(97,8,43,255);
@@ -301,7 +305,7 @@ a.white-btn{
 
 
 
-      /*non si vede il link-e non sno allineati i blocchi img*/
+      /*non si vede il link img*/
 
 
 /* question section */
