@@ -275,12 +275,41 @@ div.partner-img-quartetto{
   width: calc(100%/2);
   aspect-ratio: 1/1;
 }
+img.img-sponsor{
+  width: 50%;
+  height: 25%;
+  filter: invert(1);
+}
 #designit-logo{
   width: 100%;
   height: 20%;
 }
-.bordeaux{
+.designit-color{
+  background-color: rgba(162,211,155,255);
+}
+.arizona-color{
   background-color: rgba(97,8,43,255);
+}
+.florida-color{
+  background-color: rgba(0,147,206,255);
+}
+.topss-color{
+  background-color: rgba(0,147,206,255);
+}
+.designit-text-color{
+  background-color: rgba(245,245,245,255);
+}
+.relief-color{
+  background-color: rgba(213,0,31,255);
+}
+.hearts-color{
+  background-color: rgba(180,208,231,255);
+}
+.lonely-p-color{
+  background-color: rgba(13,36,129,255);
+}
+.clear-color{
+  background-color: rgba(255,216,48,255);
 }
 
 /*bottom partners - prova gratuita*/
