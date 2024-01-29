@@ -217,15 +217,20 @@ div.partner-cont{
   margin-bottom: 150px;
 }
 div.image-partner{
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: 75%;
 }
 div.text-partner{
-  width: 30%;
-  height: 100%;
+  width: 50%;
+  height: 80%;
   justify-content: space-around;
   flex-direction: column;
   padding: 50px;
+}
+.trova-partner-btn{
+  border: 1px solid black;
+  padding: 10px 25px;
+  text-align: center;
 }
 
 /* dropbox buisiness section */
