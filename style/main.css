@@ -53,6 +53,7 @@ header{
   width: 100%;
   justify-content: space-between;
   position: fixed;
+  z-index: 999;
 }
 .right-nav{
   padding: 20px 20px;
@@ -239,11 +240,6 @@ div.text-partner{
 }
 
 /*sponsor*/
-.sponsor{
-  margin: 0 auto;
-  max-width: 2000px;
-}
-
 .big-square{
   width: calc(100%/3);
   aspect-ratio: 1/1;
@@ -361,9 +357,20 @@ footer{
   background-color: black;
   height: 700px;
 }
+section.width-jumbo-footer{
+  margin: 0 auto;
+}
 .top-footer{
+  height: 500px;
   justify-content: space-between;
 }
 .li-footer{
+  color: white;
+  width: 20%;
+}
+div.bottom-footer{
+  width: 400px;
+  border-top: 1px solid white;
+  padding-top: 50px;
   color: white;
 }
