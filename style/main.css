@@ -233,18 +233,35 @@ div.text-partner{
   text-align: center;
 }
 
-/* dropbox buisiness section */
+/* dropbox business section */
 
 .card-b-sec{
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .card-bottom{
   width: 300px;
-  height: 700px;
+  height: 600px;
 }
-.scopri-buisiness{
+.card-bottom.central{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bottom-card-p{
+  padding-right: 5px;
+  padding-top: 20px;
+}
+.scopri-business{
   width: 750px;
-  margin-bottom: 350px; /*giusto per */
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+.scopri-t{
+  margin-bottom: 30px;
+}
+a.scopri{
+  text-decoration: underline;
+  color: blueviolet;
 }
 
 /*sponsor*/
