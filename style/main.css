@@ -238,7 +238,11 @@ div.text-partner{
   margin-bottom: 350px; /*giusto per */
 }
 
-/*partners associations*/
+/*sponsor*/
+.sponsor{
+  margin: 0 auto;
+  max-width: 2000px;
+}
 
 .big-square{
   width: calc(100%/3);
@@ -322,7 +326,29 @@ a.white-btn{
 }
 .question{
   border-top: 1px solid;
-  line-height: 100px;
+  justify-content: space-between;
+  position: relative;
+  height: 100px;
+}
+i.fa-chevron-down{
+  position: absolute;
+}
+i.fa-chevron-up{
+  position: absolute;
+  display: none;
+}
+.question:hover .fa-chevron-up{
+  display: inline;
+}
+.question:hover .fa-chevron-down{
+  display: none;
+}
+.questions-text{
+  display: none;
+  max-width: 80%;
+}
+.question:hover .questions-text{
+  display: block;
 }
 .question.last{
   border-bottom: 1px solid;
