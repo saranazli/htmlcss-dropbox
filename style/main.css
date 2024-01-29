@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* per un po
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -12,42 +11,34 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
-*/
 
 /* my utility*/
 .flex{
   display: flex;
 }
-
 .center{
   justify-content: center;
   align-items: center;
 }
-
 .width-jumbo-footer{
   width: 1370px;
 }
-
 .width{
   width: 1000px;
 }
-
 a{
   text-decoration: none;
   color: black;
 }
-
 .blue-button{
   background-color: rgba(0,97,255,255);
   padding: 10px 10px;
   color: white;
 }
-
 img{
   width: 100%;
   height: 100%;
 }
-
 .debug{
   border: 1px solid black;
 }
@@ -73,7 +64,6 @@ header{
 li{
   list-style: none;
 }
-
 ul{
   justify-content: space-around;
   width: 450px;
@@ -85,33 +75,27 @@ ul{
   height: 650px;
   background-color: rgba(180,208,231,255);
 }
-
 h1{
   padding-top: 200px;
   font-size: 5rem;
   font-weight: bold;
 }
-
 .text-and-img{
   padding-top: 30px;
 }
-
 .cont-jumbo.flex{
   width: 50%;
   flex-direction: column;
 }
-
 .text-jumbo{
   padding-bottom: 50px;
 }
-
 .fa-solid.fa-arrow-down{
   font-size: 2.5rem;
 }
 
 
 /* main dopo jumbo */ 
-
 #piani-buisiness{
   padding-top: 200px;
 }
@@ -179,7 +163,6 @@ li.li-clou{
   text-align: center;
   width: 100%;
 }
-
 #a-solo{
   color:blueviolet;
   text-decoration: underline;
@@ -280,6 +263,7 @@ div.text-partner{
   width: 50%;
 }
 
+/*colors-img*/
 .designit-color{
   background-color: rgba(162,211,155,255);
 }
@@ -308,7 +292,7 @@ div.text-partner{
   background-color: rgba(255,216,48,255);
 }
 
-/*bottom partners - prova gratuita*/
+/* prova gratuita*/
 .prova-gratuita{
   margin: 0 auto;
   height: 500px;
@@ -320,18 +304,16 @@ div.text-partner{
 .t-prova-gratuita{
   color: rgba(97,8,43,255);
   text-align: start;
+  max-width: 60%;
 }
 a.white-btn{
   background-color:white;
-  padding: 30px 30px;
-  width: 50%;
+  padding: 10px 20px;
+  max-width: 40%;
   color: black;
+  font-weight: bold;
+  text-align: center;
 }
-
-
-
-      /*non si vede il link img*/
-
 
 /* question section */
 .question-sec{
@@ -353,11 +335,9 @@ footer{
   background-color: black;
   height: 700px;
 }
-
 .top-footer{
   justify-content: space-between;
 }
-
 .li-footer{
   color: white;
 }
