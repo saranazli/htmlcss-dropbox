@@ -53,25 +53,22 @@ img{
 
 /*header*/
 header{
-  height: 70px;
+  height: 100px;
+  position: relative;
 }
-
 .nav.flex{
-  margin-left: 10px;
-  margin-right: 10px;
+  background-color: white;
+  width: 100%;
   justify-content: space-between;
+  position: fixed;
 }
-
 .right-nav{
   padding: 20px 20px;
 }
-
 .logo{
   width: 200px;
   height: 100%;
 }
-
-
 li{
   list-style: none;
 }
