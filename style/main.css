@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* per un po
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -12,6 +12,7 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
+*/
 
 /* my utility*/
 .flex{
@@ -256,32 +257,29 @@ div.text-partner{
 
 /*partners associations*/
 
-.partners{
-  font-size: 0;
-  margin: 0 auto;
-  text-align: center;
-}
-.part-cont{
-  width: calc(98vw/3);
+.big-square{
+  width: calc(100%/3);
   aspect-ratio: 1/1;
-  display: inline-block;
-}
-.quartetto{
-  width: 100%;
-  height: 100%;
   flex-wrap: wrap;
 }
-div.partner-img-quartetto{
-  width: calc(100%/2);
-  aspect-ratio: 1/1;
+.little-square{
+ width: calc(100%/2);
+ aspect-ratio: 1/1;
 }
-img.img-sponsor{
+.sponsor-img{
   filter: invert(1);
+  width: 50%;
+  height: 50%;
 }
-#designit-logo{
-  width: 100%;
-  height: 20%;
+.sponsor-img.florida{
+  width: 60%;
+  height: 10%;
 }
+.sponsor-middle-img{
+  height: 30%;
+  width: 50%;
+}
+
 .designit-color{
   background-color: rgba(162,211,155,255);
 }
@@ -292,7 +290,7 @@ img.img-sponsor{
   background-color: rgba(0,147,206,255);
 }
 .topss-color{
-  background-color: rgba(0,147,206,255);
+  background-color: rgba(255,28,28,255);
 }
 .designit-text-color{
   background-color: rgba(245,245,245,255);
