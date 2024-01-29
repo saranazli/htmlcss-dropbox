@@ -402,8 +402,7 @@ h4{
   margin-bottom: 150px;
 }
 
-/*footer*/
-
+/*footer top*/
 footer{
   background-color: black;
   height: 700px;
@@ -419,8 +418,16 @@ section.width-jumbo-footer{
   color: white;
   width: 20%;
 }
+.li-bottom-footer{
+  padding: 10px 0;
+}
+.li-bottom-footer.first{
+  padding-top: 45px;
+}
+
+/* footer bottom */
 div.bottom-footer{
-  width: 400px;
+  width: 150px;
   border-top: 1px solid white;
   padding-top: 50px;
   color: white;
