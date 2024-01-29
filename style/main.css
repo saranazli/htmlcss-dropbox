@@ -283,9 +283,27 @@ a.scopri{
   width: 60%;
   height: 10%;
 }
+.middle-square{
+  overflow: auto;
+}
+.inner-middle-square{
+  max-width: 80%;
+  height: 80%;
+  padding-top: 10px;
+}
 .sponsor-middle-img{
   height: 30%;
   width: 50%;
+}
+.separatore{
+  width: 25%;
+  border-top: 1px solid gray;
+  height: 10%;
+}
+h5{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 15px;
 }
 
 /*colors-img*/
@@ -301,7 +319,7 @@ a.scopri{
 .topss-color{
   background-color: rgba(255,28,28,255);
 }
-.designit-text-color{
+.designit-text.color{
   background-color: rgba(245,245,245,255);
 }
 .relief-color{
@@ -320,7 +338,7 @@ a.scopri{
 /* prova gratuita*/
 .prova-gratuita{
   margin: 0 auto;
-  height: 500px;
+  height: 400px;
   background-color: rgba(180,208,231,255);
 }
 .prova-gratuita.block{
@@ -358,18 +376,26 @@ i.fa-chevron-up{
   position: absolute;
   display: none;
 }
-.question:hover .fa-chevron-up{
-  display: inline;
-}
-.question:hover .fa-chevron-down{
-  display: none;
+h4{
+  padding-top: 20px;
 }
 .questions-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: none;
   max-width: 80%;
 }
 .question:hover .questions-text{
   display: block;
+}
+.question:hover{
+  height: 200px;
+}
+.question:hover .fa-chevron-up{
+  display: inline;
+}
+.question:hover .fa-chevron-down{
+  display: none;
 }
 .question.last{
   border-bottom: 1px solid;
